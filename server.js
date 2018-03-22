@@ -5,7 +5,7 @@ var app = express();
 var path = process.cwd();
 
 
-app.use(express.static(path + '/public'));
+app.use(express.static(path + '/app/public'));
 
 app.get('/', function (req, res) {
    //res.sendFile(path.join(__dirname,'public', 'index.html'));

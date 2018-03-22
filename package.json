@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/chingu-voyage4/Geckos-Team-20#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.2"
