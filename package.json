@@ -1,0 +1,24 @@
+{
+  "name": "glorious-pins",
+  "version": "0.0.1",
+  "description": "Chingu voyage 4 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingu-voyage4/Geckos-Team-20.git"
+  },
+  "keywords": [
+    "Chingu",
+    "Gecko",
+    "glorious"
+  ],
+  "author": "dragonraij, DarisCalinor, shalinidc, hiralmakwana30",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chingu-voyage4/Geckos-Team-20/issues"
+  },
+  "homepage": "https://github.com/chingu-voyage4/Geckos-Team-20#readme"
+}
