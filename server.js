@@ -6,6 +6,9 @@ var path = process.cwd();
 
 
 app.use(express.static(path + '/app/public'));
+app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
+app.use('/bootstrap', express.static(__dirname + '/node_modules/bootstrap/dist/'));
+
 
 app.get('/', function (req, res) {
    //res.sendFile(path.join(__dirname,'public', 'index.html'));
