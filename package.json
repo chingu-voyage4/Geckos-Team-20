@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/chingu-voyage4/Geckos-Team-20.git"
   },
-  "keywords": [
-    "Chingu",
-    "Gecko",
-    "glorious"
-  ],
+  "keywords": ["Chingu", "Gecko", "glorious"],
   "author": "dragonraij, DarisCalinor, shalinidc, hiralmakwana30",
   "license": "ISC",
   "bugs": {
@@ -29,7 +25,9 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.9.0",
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.17.2",
+    "prettier": "^1.11.1"
   }
 }
