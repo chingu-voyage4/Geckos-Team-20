@@ -1,0 +1,6 @@
+# Cloud9 IDE - http://c9.io
+.c9revisions
+.c9/
+node_modules/
+package-lock.json
+.git/
