@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>404 - Page Not Found</title>
+      <script src="/jquery/jquery.js"></script>  
+      <title>404 - Page Not Found</title>
     </head>
     <body>
-        <h1>404</h1>
+      <div class="menu"></div>  
+      <h1>404</h1>
         <p>Page not found</p>
+        
+
+        <footer></footer>
+        <script> 
+          $(function(){ $("head").load("partials/header.html"); });
+          $(function(){ $(".menu").load("partials/menu.html"); });
+          $(function(){ $("footer").load("partials/footer.html"); });
+        </script>
     </body>
 </html>
