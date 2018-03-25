@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/chingu-voyage4/Geckos-Team-20.git"
   },
-  "keywords": ["Chingu", "Gecko", "glorious"],
+  "keywords": [
+    "Chingu",
+    "Gecko",
+    "glorious"
+  ],
   "author": "dragonraij, DarisCalinor, shalinidc, hiralmakwana30",
   "license": "ISC",
   "bugs": {
