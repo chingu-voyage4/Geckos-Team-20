@@ -1,43 +1,33 @@
 <!DOCTYPE html>
-
 <html>
+<head>
 
-	<head>
-		 <script src="/jquery/jquery.js"></script>
-
-	</head>
-
-	
-	<body style="background-color:#F1F7EE">
-		<menu></menu>
-
-		<div class="container">
-				    <p><b><</b> Back to Feed</p>
-			<div class="row">
-      	<div class="offset-lg-2 col-lg-8 offset-sm-2 col-sm-8 col-12">
-					<div class="card">
-							<div class="card-header">
-						    <a href="#" class="btn btn-success float-right">Save</a>
-							</div>
-              <img class="card-img-top" src="https://placeimg.com/400/300/any" alt="Card image cap">
-              <div class="card-body">
-
-						    <a href="#" class="btn btn- float-right btn-light">Open</a>
-						    <img src="https://placeimg.com/50/50/people" alt="Caleb Cutling" class="rounded-circle" style="vertical-align: middle;
-  margin-bottom: 0.75em;"/>
-						    <span><b>Caleb Cuttling</b> added this image</span>
-              </div>
-            </div>
-			    </div>
-       </div>
-			
+	<script src="/jquery/jquery.js">
+	</script>
+	<title></title>
+</head>
+<body style="background-color:#F1F7EE">
+	<menu></menu>
+	<div class="container">
+		<p><b>&lt;</b> Back to Feed</p>
+		<div class="row">
+			<div class="offset-lg-2 col-lg-8 offset-sm-2 col-sm-8 col-12">
+				<div class="card">
+					<div class="card-header">
+						<a class="btn btn-success float-right" href="#">Save</a>
+					</div><img alt="Card image cap" class="card-img-top" src="https://placeimg.com/400/300/any">
+					<div class="card-body">
+						<a class="btn btn- float-right btn-light" href="#">Open</a> <img alt="Caleb Cutling" class="rounded-circle" src="https://placeimg.com/50/50/people" style="vertical-align: middle; margin-bottom: 0.75em;"> <span><b>Caleb Cuttling</b> added this image</span>
+					</div>
+				</div>
+			</div>
 		</div>
-	
-		<footer></footer>
-		        <script> 
-            $(function(){ $("head").load("partials/header.html"); });
+	</div>
+	<footer></footer>
+	<script>
 
-       </script>
-	</body>
-
+	           $(function(){ $("head").load("partials/header.html"); });
+	           $(function(){ $("footer").load("partials/footer.html"); });
+	</script>
+</body>
 </html>
